@@ -1,29 +1,49 @@
 
 
 body{
-  height: 60vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center ;
   align-items: center ;
   font-family: "Poppins", monospace;
   font-weight: 300;
+  
 }
-#div-1,.d2{
-    display:column;
+#main{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  
+}
+#div-1{
+  display: column;
+  justify-content: center;
+  align-items: center ;
+
+  
+}
+#div_2,#div2{
+    display:flex;
     justify-content: center;
     align-items: center;
+    margin-bottom:20px;
 }
-#h1{
+.h{
     display: flex;
-    justify-content: center;
+    justify-content: center ;
     align-items: center;
     font-size: 30px;
+    margin-top:5px; 
+
+    margin-bottom:5px; 
+    
+    color :hsla(235, 79%, 82%, 1);
 }
 
 #inp{
   height: 28px;
-  width: 100%;
+  width: 99%;
   background:#BEBEBE;
   border: none;
   border-radius: 5px;
@@ -33,6 +53,8 @@ body{
   outline:none;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+    margin-bottom:20px;
+
 }
 .submit{
     background: hsla(116, 49%, 50%, 1);
@@ -43,7 +65,11 @@ body{
     cursor: pointer;
     font-family: "Poppins", sans-serif;
   font-weight: 500;
-};
-
-#h2{
 }
+#p1{
+  font-size: 30px;
+  font-weight: 700;
+  color: hsla(235, 98%, 70%, 1);
+  
+}
+  
